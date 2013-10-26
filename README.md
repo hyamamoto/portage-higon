@@ -34,33 +34,24 @@ Add a local repository.
 
 then add a following line like...
 
-_PORTDIR_OVERLAY="/usr/local/portage/higon"_
+> PORTDIR_OVERLAY="/usr/local/portage/higon"
 
 
 Installation With Layman
 ------------------------
 
 1. install layman
-
 > emerge layman
 > echo 'source /usr/local/portage/layman/make.conf" >> /etc/make.conf
-
 2. Add URL for metadata XML 
-
-   https://raw.github.com/hyamamoto/portage-higon/master/metadata/higon.xml
-
+> https://raw.github.com/hyamamoto/portage-higon/master/metadata/higon.xml
 3. Just add it to laymen's 'overlays' section Then 
-
 > layman -a higon
-
 4. Then 
-
 * To sync individually:
 > layman -s
-
 * To sync all: 
 > layman -S
-
 
 Misc
 ----
