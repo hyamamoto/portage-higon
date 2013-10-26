@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories version="1.0">
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name><![CDATA[higon]]></name>
+    <description><![CDATA[Higon's portage ...]]></description>
+    <homepage>https://github.com/hyamamoto/portage-higon</homepage>
+    <owner>
+      <email>higon@freepress.jp</email>
+      <name><![CDATA[Hiroshi Yamamoto]]></name>
+    </owner>
+    <source type="git">git://github.com/hyamamoto/portage-higon.git</source>
+  </repo>
+</repositories>
