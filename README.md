@@ -54,14 +54,17 @@ Installation using Layman
 > layman -a higon
 
 (4) Then  
-* To sync individually:  
+* To sync individually:
+
 > layman -s
-* To sync all repositories:  
+
+* To sync all repositories:
+
 > layman -S
 
 Misc
 ----
 
-Files in this portage is _Distributed under the terms of the GNU General Public License v2_
+Files in this portage are _distributed under the terms of the GNU General Public License v2_ .
 
-If you have any problem, please report them to Hiroshi Yamamoto (higon at freepress.jp)
+If you have any problem, please report them to Hiroshi Yamamoto (higon at freepress.jp).
