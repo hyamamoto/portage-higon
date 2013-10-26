@@ -27,9 +27,9 @@ Installation
 
 Add a local repository.
  
-> mkdir -p /usr/local/portage
-> cd /usr/local/portage
-> git clone git://github.com/hyamamoto/portage-higon.git /usr/local/portage/higon
+> mkdir -p /usr/local/portage  
+> cd /usr/local/portage  
+> git clone git://github.com/hyamamoto/portage-higon.git /usr/local/portage/higon  
 > vi /etc/make.conf
 
 then add a following line like...
@@ -41,19 +41,22 @@ Installation using Layman
 --------------------------
 
 (1) install layman
-> emerge layman
+
+> emerge layman  
 > echo 'source /usr/local/portage/layman/make.conf" >> /etc/make.conf
 
 (2) Add URL for metadata XML 
+
 > https://raw.github.com/hyamamoto/portage-higon/master/metadata/higon.xml
 
 (3) Just add it to laymen's 'overlays' section Then 
+
 > layman -a higon
 
-(4) Then 
-* To sync individually:
+(4) Then  
+* To sync individually:  
 > layman -s
-* To sync all: 
+* To sync all repositories:  
 > layman -S
 
 Misc
