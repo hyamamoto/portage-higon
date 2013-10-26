@@ -43,10 +43,13 @@ Installation using Layman
 (1) install layman
 > emerge layman
 > echo 'source /usr/local/portage/layman/make.conf" >> /etc/make.conf
+
 (2) Add URL for metadata XML 
 > https://raw.github.com/hyamamoto/portage-higon/master/metadata/higon.xml
+
 (3) Just add it to laymen's 'overlays' section Then 
 > layman -a higon
+
 (4) Then 
 * To sync individually:
 > layman -s
