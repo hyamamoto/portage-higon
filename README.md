@@ -26,11 +26,11 @@ Installation
 ------------
 
 Add a local repository.
-
-# mkdir -p /usr/local/portage
-# cd /usr/local/portage
-# git clone git://github.com/hyamamoto/portage-higon.git /usr/local/portage/higon
-# vi /etc/make.conf
+ 
+> mkdir -p /usr/local/portage
+> cd /usr/local/portage
+> git clone git://github.com/hyamamoto/portage-higon.git /usr/local/portage/higon
+> vi /etc/make.conf
 
 then add a following line like...
 
@@ -42,8 +42,8 @@ Installation With Layman
 
 1. install layman
 
-# emerge layman
-# echo 'source /usr/local/portage/layman/make.conf" >> /etc/make.conf
+> emerge layman
+> echo 'source /usr/local/portage/layman/make.conf" >> /etc/make.conf
 
 2. Add URL for metadata XML 
 
@@ -51,15 +51,15 @@ Installation With Layman
 
 3. Just add it to laymen's 'overlays' section Then 
 
-# layman -a higon
+> layman -a higon
 
 4. Then 
 
 * To sync individually:
-# layman -s
+> layman -s
 
 * To sync all: 
-# layman -S
+> layman -S
 
 
 Misc
